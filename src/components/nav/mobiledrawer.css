@@ -1,0 +1,52 @@
+/* mobiledrawer.css */
+.mobiledrawer {
+    position: fixed;    /* Fixes the position */
+    top: 30px;          /* 20px from the top to match the padding of .header */
+    right: 20px;        /* 20px from the right to match the padding of .header */
+    z-index: 101;       /* This should be higher than .header to ensure the button is always on top */
+    
+}
+
+
+
+.menuIcon{
+    color: black;
+}
+
+@keyframes wobble {
+    16.65% { transform: rotate3d(0, 0, 1, -5deg); }
+    33.3% { transform: rotate3d(0, 0, 1, 3deg); }
+    49.95% { transform: rotate3d(0, 0, 1, -3deg); }
+    66.6% { transform: rotate3d(0, 0, 1, 2deg); }
+    83.25% { transform: rotate3d(0, 0, 1, -1deg); }
+    100% { transform: rotate3d(0, 0, 1, 0); }
+ }
+ 
+ .btnMenu:hover {
+    animation: wobble 0.5s;
+
+ }
+
+ .list-item:hover {
+    
+}
+
+ .drawer{
+    width: 35%;
+ }
+
+ .MuiListItem-root.list-item:hover {
+    background-color: #47A7C2;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .mobiledrawer{
+        position: fixed;    /* Fixes the position */
+    top: 30px;          /* 20px from the top to match the padding of .header */
+    right: 10px;        /* 20px from the right to match the padding of .header */
+    z-index: 101;   
+        }
+     }
