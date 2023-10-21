@@ -1,0 +1,63 @@
+
+.containerIntro{
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;   
+    
+    
+}
+
+
+.title-intro{
+    text-decoration: underline;
+    font-size: 3rem;  
+}
+
+.containerTitle{
+    padding: 40px;
+    flex-direction: column;
+}
+
+
+.me{
+   width: 19rem;
+    height: 20rem;
+    left: calc(50% - 11rem);
+    margin-top: 3rem;
+    margin-left: 4rem;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--color-light);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+
+}
+
+.cta{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* ===========TABLET======= */
+@media screen and (max-width: 1024px) {
+    
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+    intro {
+        height: 68vh;
+    }
+
+}
+
+/* ============SMARTPHONES======== */
+@media screen and (max-width: 600px) {
+    intro {
+        height: 100vh;
+    }
+        
+    }

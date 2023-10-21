@@ -44,7 +44,7 @@
 @media screen and (max-width: 767px) {
 
     .mobiledrawer{
-        position: fixed;    /* Fixes the position */
+        position: fixed;    
     top: 30px;          /* 20px from the top to match the padding of .header */
     right: 10px;        /* 20px from the right to match the padding of .header */
     z-index: 101;   

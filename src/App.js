@@ -4,17 +4,8 @@ import React from "react";
 import Header from "./components/header/header";
 import About from "./components/about/about";
 import Nav from "./components/nav/mobiledrawer";
-
-
-
-
-
-
-
-
-
-
-
+import Intro from './components/intro/intro';
+import Works from './components/works/Works';
 
 
 function App() {
@@ -24,15 +15,9 @@ function App() {
       
       </Header>
       <Nav/>
-      <About/>
-      
-   
-
-      
-     
-  
-    
-     
+      <Intro/>
+      <About/>  
+      <Works/>
     </div>
   );
 }

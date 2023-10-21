@@ -1,7 +1,8 @@
 
 .title-header {
     flex-grow: 1;
-    padding-right: 20px;
+    padding-right: 25px;
+    font-size: 3rem;
 
 }
 
