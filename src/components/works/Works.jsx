@@ -2,12 +2,17 @@ import React from 'react';
 import CustomCard from './CustomCard';
 import { Container } from '@mui/material';
 import { projectsData } from '../../common/projectData';
+import './works.css';
+
 
 function Works() {
     return (
-        <div>
-            <Container>
+        <div className="works-section">
+                        <h1 className="works-title">My works</h1>      
+
+            <div className="projects-container"> 
             {projectsData.map((project, index) => (
+                
                 <CustomCard 
                     key={index}
                     imageSrc={project.imageSrc}
@@ -18,8 +23,9 @@ function Works() {
                     technologies={project.technologies}
                     languages={project.languages}
                 />
+           
             ))}
-            </Container>
+         </div>
         </div>
     );
 }

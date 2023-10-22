@@ -25,5 +25,57 @@ export const projectsData = [
             CSS: 10
         }
     },
+    {
+        title: 'Project 2',
+        description: 'Description for Project 2...',
+        imageSrc: '/path/to/image2.jpg',
+        githubLink: 'https://github.com/yourusername/project2',
+        liveLink: 'https://project2.live',
+        technologies: ['Vue.js', 'Firebase'],
+        languages: {
+            JavaScript: 75,
+            HTML: 15,
+            CSS: 10
+        }
+    },
+    {
+        title: 'Project 2',
+        description: 'Description for Project 2...',
+        imageSrc: '/path/to/image2.jpg',
+        githubLink: 'https://github.com/yourusername/project2',
+        liveLink: 'https://project2.live',
+        technologies: ['Vue.js', 'Firebase'],
+        languages: {
+            JavaScript: 75,
+            HTML: 15,
+            CSS: 10
+        }
+    },
+    {
+        title: 'Project 2',
+        description: 'Description for Project 2...',
+        imageSrc: '/path/to/image2.jpg',
+        githubLink: 'https://github.com/yourusername/project2',
+        liveLink: 'https://project2.live',
+        technologies: ['Vue.js', 'Firebase'],
+        languages: {
+            JavaScript: 75,
+            HTML: 15,
+            CSS: 10
+        }
+    },
+    {
+        title: 'Project 2',
+        description: 'Description for Project 2...',
+        imageSrc: '/path/to/image2.jpg',
+        githubLink: 'https://github.com/yourusername/project2',
+        liveLink: 'https://project2.live',
+        technologies: ['Vue.js', 'Firebase'],
+        languages: {
+            JavaScript: 75,
+            HTML: 15,
+            CSS: 10
+        }
+    }
     
 ];

@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import Nav from "./components/nav/mobiledrawer";
 import Intro from './components/intro/intro';
 import Works from './components/works/Works';
+import Contact from './components/contact/contact';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <Intro/>
       <About/>  
       <Works/>
+      <Contact/>
+      
     </div>
   );
 }
