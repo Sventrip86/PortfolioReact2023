@@ -31,11 +31,13 @@ function Contact() {
             <Typography variant="h4" align="center" gutterBottom>Contact Me</Typography>
             <form onSubmit={handleSubmit}>
                 <TextField 
+                    
                     name="name"
                     label="Name"
                     variant="outlined"
                     fullWidth
                     margin="normal"
+                    
                     value={formData.name}
                     onChange={handleChange}
                 />

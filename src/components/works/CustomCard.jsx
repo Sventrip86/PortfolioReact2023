@@ -7,7 +7,7 @@ function CustomCard({ imageSrc, title, description, githubLink, liveLink, techno
             <CardActionArea onClick={() => window.open(liveLink, '_blank')}>
                 <CardMedia
                     component="img"
-                    height="140"
+                    height="240"
                     image={imageSrc}
                     alt={title}
                 />

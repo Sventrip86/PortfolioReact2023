@@ -1,3 +1,6 @@
+import lacasaImage from '../assets/projectsIMG/lacasa.PNG';
+
+
 export const projectsData = [
     {
         title: 'Project 1',
@@ -13,15 +16,13 @@ export const projectsData = [
         }
     },
     {
-        title: 'Project 2',
-        description: 'Description for Project 2...',
-        imageSrc: '/path/to/image2.jpg',
+        title: 'www.lacasadelmastro.com',
+        description: 'Website for a rental house created with wordpress',
+        imageSrc: lacasaImage,
         githubLink: 'https://github.com/yourusername/project2',
-        liveLink: 'https://project2.live',
-        technologies: ['Vue.js', 'Firebase'],
+        liveLink: 'https://lacasadelmastro.com/',
+        technologies: ['Wordpress'],
         languages: {
-            JavaScript: 75,
-            HTML: 15,
             CSS: 10
         }
     },
